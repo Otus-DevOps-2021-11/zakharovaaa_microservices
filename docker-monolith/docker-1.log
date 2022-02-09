@@ -1,0 +1,11 @@
+REPOSITORY              TAG       IMAGE ID       CREATED          SIZE
+alina/ubuntu-tmp-file   latest    515e20c255b8   28 seconds ago   63.2MB
+docker101tutorial       latest    f75fb25981ed   2 hours ago      28.8MB
+ubuntu                  18.04     dcf4d4bef137   5 days ago       63.2MB
+nginx                   latest    c316d5a335a5   12 days ago      142MB
+alpine/git              latest    c6b70534b534   2 months ago     27.4MB
+hello-world             latest    feb5d9fea6a5   4 months ago     13.3kB
+
+Задание со *
+>На основе вывода команд объясните, чем отличается контейнер от образа.
+Образ - это шаблон для будущего контейнера, на его основе может быть запущено несколько контейнеров. В выводе информации по контейнеру мы видим всю информацию по образу + системную информацию, например, о сети.
